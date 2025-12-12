@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -78,7 +78,6 @@ export default function LandingPage() {
           titleClassName="text-5xl md:text-6xl font-bold tracking-tight"
           descriptionClassName="text-lg md:text-xl text-gray-600 max-w-2xl"
           buttonClassName="rounded-full px-8 py-3 font-semibold transition-all"
-          useInvertedBackground="noInvert"
         />
       </div>
 
@@ -128,7 +127,7 @@ export default function LandingPage() {
               description: "Multi-disciplinary approach to acute and chronic pain relief without reliance on pharmaceuticals, using natural therapeutic methods.",
               icon: Shield
             }
-          ]}
+          ]
           textboxLayout="default"
           animationType="slide-up"
           containerStyle="default"
