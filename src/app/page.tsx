@@ -31,12 +31,10 @@ export default function LandingPage() {
         <NavbarStyleMinimal
           brandName="ProAlign Chiropractic"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765552061336-b3jpmaf3.jpg"
-          logoAlt="ProAlign Chiropractic Logo"
           button={{
             text: "Book Appointment",
             href: "#contact"
           }}
-          className="bg-white border-b border-gray-200"
         />
       </div>
 
@@ -74,10 +72,6 @@ export default function LandingPage() {
               label: "Success Rate"
             }
           ]}
-          className="min-h-screen flex flex-col justify-center"
-          titleClassName="text-5xl md:text-6xl font-bold tracking-tight"
-          descriptionClassName="text-lg md:text-xl text-gray-600 max-w-2xl"
-          buttonClassName="rounded-full px-8 py-3 font-semibold transition-all"
         />
       </div>
 
@@ -95,8 +89,6 @@ export default function LandingPage() {
             }
           ]}
           useInvertedBackground="noInvert"
-          titleClassName="text-4xl md:text-5xl font-bold"
-          descriptionClassName="text-base md:text-lg text-gray-700 leading-relaxed"
         />
       </div>
 
@@ -127,12 +119,11 @@ export default function LandingPage() {
               description: "Multi-disciplinary approach to acute and chronic pain relief without reliance on pharmaceuticals, using natural therapeutic methods.",
               icon: Shield
             }
-          ]
+          ]}
           textboxLayout="default"
           animationType="slide-up"
           containerStyle="default"
           useInvertedBackground="noInvert"
-          titleClassName="text-4xl md:text-5xl font-bold mb-6"
         />
       </div>
 
@@ -165,9 +156,6 @@ export default function LandingPage() {
           ]}
           metricVariant="border"
           useInvertedBackground="noInvert"
-          titleClassName="text-3xl md:text-4xl font-bold max-w-3xl"
-          valueClassName="text-4xl md:text-5xl font-bold"
-          metricTitleClassName="text-base text-gray-700"
         />
       </div>
 
@@ -212,8 +200,6 @@ export default function LandingPage() {
           containerStyle="default"
           textboxLayout="default"
           useInvertedBackground="noInvert"
-          titleClassName="text-4xl md:text-5xl font-bold"
-          descriptionClassName="text-lg text-gray-600"
         />
       </div>
 
@@ -265,8 +251,6 @@ export default function LandingPage() {
           variant="card"
           textboxLayout="default"
           useInvertedBackground="noInvert"
-          titleClassName="text-4xl md:text-5xl font-bold"
-          descriptionClassName="text-lg text-gray-600"
         />
       </div>
 
@@ -312,8 +296,6 @@ export default function LandingPage() {
           useInvertedBackground="noInvert"
           animationType="smooth"
           showCard={true}
-          titleClassName="text-4xl md:text-5xl font-bold"
-          descriptionClassName="text-lg text-gray-600"
         />
       </div>
 
@@ -355,9 +337,6 @@ export default function LandingPage() {
           }}
           useInvertedBackground="noInvert"
           buttonText="Book Appointment"
-          titleClassName="text-4xl md:text-5xl font-bold mb-4"
-          descriptionClassName="text-lg text-gray-600 mb-8"
-          containerClassName="bg-white rounded-2xl shadow-lg p-8 md:p-12 max-w-2xl"
         />
       </div>
 
@@ -432,7 +411,6 @@ export default function LandingPage() {
           ]}
           logoText="ProAlign Chiropractic"
           copyrightText="© 2025 ProAlign Chiropractic. All rights reserved."
-          logoClassName="w-32 h-auto"
         />
       </div>
     </ThemeProvider>
